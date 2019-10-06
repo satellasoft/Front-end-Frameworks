@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Unsemantic</title>
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <style>
+    *{
+      margin:0 auto;
+      padding:0;
+      font-family: 'Lato', sans-serif;
+      text-align:justify;
+    }
+
+    .no-padding{
+      padding:0;
+    }
+
+    .padding{
+      padding:25px;
+    }
+
+    .padding-large{
+      padding:50px;
+    }
+  </style>
+</head>
+<body>
+  <!--ROW 01-->
+  <div class="grid-20 mobile-grid-100 padding" style="background-color: #2672de; border-right: 1px solid #0e203b"></div>
+  <div class="grid-80 hide-on-mobile padding" style="background-color: #2672de;"></div>
+
+  <!--ROW 02-->
+  <div class="grid-20 hide-on-mobile padding" style="background-color: #0e203b; border-right:1px solid #2672de; height:93vh;"></div>
+  <div class="grid-80" style="height:93vh;">
+    <br>
+    <!--ROW 01-->
+    <div class="grid-25 mobile-grid-50 no-padding">
+      <div class="padding" style="background-color: cyan;">
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+
+    <div class="grid-25 mobile-grid-50 no-padding">
+      <div class="padding" style="background-color: gray;">
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+
+    <div class="clear hide-on-desktop"></div>
+    <br class="hide-on-desktop">
+
+    <div class="grid-25 mobile-grid-50 no-padding">
+      <div class="padding" style="background-color: green;">
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+    <div class="grid-25 mobile-grid-50 no-padding">
+      <div class="padding" style="background-color: magenta;">
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+
+    <!--ROW 02-->
+    <div class="clear"></div>
+    <br>
+    <div class="grid-50 no-padding">
+      <div class="padding-large" style="background-color: orange;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+    <div class="grid-50 no-padding">
+      <div class="padding-large" style="background-color: red;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+
+    <!--ROW 03-->
+    <div class="clear"></div>
+    <br>
+    <div class="grid-100 no-padding">
+      <div class="padding-large" style="background-color: purple;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
