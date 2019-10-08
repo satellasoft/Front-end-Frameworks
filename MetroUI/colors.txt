@@ -1,0 +1,6 @@
+TOP: #ff6666
+Yellow: #ffcc33
+Green: #67db6b
+Blue: #4f95db
+Purple: #b376db
+Bottom: #1a293d

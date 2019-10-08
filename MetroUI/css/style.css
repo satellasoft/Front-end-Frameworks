@@ -1,0 +1,93 @@
+*{
+  margin: 0 auto !important;
+  padding: 0;
+}
+
+/*HEADER*/
+.header{
+  background-color: #ff6666;
+  padding:10px;
+}
+
+.header img{
+  max-width: 50px;
+  width:100%;
+}
+
+.header a{
+  padding-right:25px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+.header a:hover{
+  color: #111;
+  text-decoration: underline;
+}
+
+.max-width{
+  max-width: 1048px;
+
+}
+
+.full-width{
+    width:100%;
+}
+
+
+/*SLIDER*/
+.slider{
+  background-color: #ffcc33;
+  width:100%;
+  padding:10px;
+  height:auto;
+}
+
+/*SLIDER*/
+.about{
+  background-color: #67db6b;
+  width:100%;
+  padding:10px;
+  height:auto;
+}
+
+.about img{
+  max-height: 350px;
+}
+
+/*PRODUCTS*/
+
+.products{
+  background-color: #4f95db;
+  width:100%;
+  padding:25px;
+  height:auto;
+}
+
+.products img{
+  max-width:150px;
+}
+
+.products .title{
+  font-weight: 300;
+  font-size:1.5em;
+  color: #FFF;
+}
+
+/*PRODUCTS*/
+.contact{
+  background-color: #b376db;
+  width:100%;
+  padding:10px;
+  height:auto;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #1a293d;
+  width:100%;
+  padding:10px;
+  height:auto;
+  color: #FFF;
+}
